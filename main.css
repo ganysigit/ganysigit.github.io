@@ -1,0 +1,433 @@
+.header {
+	width: 100%;
+	padding: 20px 0 10px 0;
+	background: #9dbd00;
+	color: white;
+	overflow: hidden;
+	
+}
+
+.title	{
+	float: left;
+	font-size: 24px;
+	padding: 0 0 0 0;
+	font-family: 'forte regular';
+}
+
+.nav1 {
+	width: 100%;
+	padding: 24px 0 24px 0;
+	background: white;
+	border: 1px #111111;
+}
+
+.home {
+	font-family: 'arial';
+	font-size: 14px;
+	color: #999;
+}
+
+.container .ket {
+	font-size: 16px;
+}
+
+.nav2 {
+	width: 100%;
+	background: #f7f7f7;
+	max-height: 69px;
+	border-bottom: 1px solid rgb(230, 226, 226);
+	border-top: 1px solid rgb(230, 226, 226);
+	overflow: hidden;
+}
+
+.nav2 .container{
+	padding-bottom: 10px;
+	width: 100%;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+h3.place {
+	font-size: 16px;
+	color: #666;
+	float: left;
+	padding-top: 12px;
+}
+
+.container .place-change {
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: white;
+	color: #b1cc33;
+	float: right;
+}
+
+.container .place-change:link {
+	color: #b1cc33;
+	text-decoration: none;
+}
+
+.container .place-change:visited {
+	color: #b1cc33;
+	text-decoration: none;
+}
+
+.container .place-change:hover {
+	color: #999;
+	text-decoration: none;
+}
+.menu-list {
+	float: right;
+	padding: 0 0 0 0;
+	font-size: 14px;
+}
+
+ul.menu-list li {
+	display: inline;
+}
+
+.menu {
+	font-size: 14px;
+	padding-right: 40px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+li a.menu:link {
+	color: white;
+	text-decoration: none;
+}
+
+li a.menu:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+li a.menu-spc:visited {
+	color: white;
+	text-decoration: none;
+}
+
+li a.menu-spc:link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+li a.menu-spc:hover {
+	color: lightgrey;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-list .menu-spc {
+	font-size: 14px;
+	padding-right: 40px;
+	padding: 10px 20px 10px 20px;
+	border: 0px solid white;
+	border-radius: 5px;
+	background: #b1cc33;
+	color: white;
+	letter-spacing: 1px;
+}
+.wrapper-header1 {
+	padding-top: 40px;
+	background: white;
+}
+
+.maincontent {
+	width: 100%;
+	background: white;
+}
+
+.searchex {
+	margin-bottom: 5px;
+}
+
+.searchex .searchheader {
+	padding-left: 35px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666
+}
+.searchex .fa-search {
+	position: absolute;
+	top: 4px;
+	left: 17px;
+	bottom: 5px;
+	font-size: 20px;
+	color: #999
+}
+
+.search {
+	padding-top: 10px;
+}
+.search .form-control {
+	width: 60%
+}
+
+.search .form-control { 
+	position: relative; 
+}
+
+.search .fa-search { 
+	position: absolute;
+	top: 52px;
+	left: 196px;
+	font-size: 18px;
+	color: #999
+  }
+
+.col-md-4 .list {
+	padding-top: 30px;
+	top: 37px;
+	left: 19px;
+	font-size: 18px;
+	color: #999
+}
+
+.col-md-8 .content .post {
+	background-color: rgb(241, 232, 232);
+    width: 97%;
+    padding: 0px 0 0 20px;
+	margin: 25px;
+	overflow: hidden;
+}
+
+.post .row {
+	width: 100%;
+}
+.content .post img.post-pictures {
+	margin-top: 15px;
+	padding: 20px 20px 20px 20px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	background: white;
+}
+
+.content .post p.post-tema {
+	padding: 0px 50px 0 0;
+	font-size: 17px;
+	font-weight: bold;
+	color: #666;
+	letter-spacing: 1px;
+	float: right;
+	position: relative;
+}
+
+.row .col-sm-2 {
+	padding-bottom: 15px;
+}
+
+.row .col-md-5 {
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+.col-sm-3 div.sponsored {
+	margin-left: 25px;
+	border-radius: 0 0 8px 8px;
+	background: #b1cc33;
+	
+}
+
+a.sponsored1:link {
+	color: white;
+	text-decoration: none;
+}
+
+a.sponsored1:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.sponsored1:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+div.discount {
+	background: #b1cc33;
+	border-radius: 0 0 40px 40px;
+	text-align: center;
+	padding: 14px 0px;
+}
+
+div.discount p {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+.list {
+	padding-left: 40px;
+	padding-bottom: 7px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+div.sponsored a.sponsored1 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.sponsored p {
+	text-align: center;
+}
+.list .listheader {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 3px;
+	color: #666;
+}
+
+.list .fa-list {
+	position: absolute;
+	top: 112px;
+	left: 20px;
+	font-size: 22px;
+	color: #666
+}
+
+.list2 .listcuisines {
+	padding-left: 20px;
+	padding-bottom: 13px;
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	color: #666
+}
+
+.list2 .fa-cutlery {
+	position: absolute;
+	top: 381px;
+	left: 20px;
+	font-size: 22px;
+	color: #666
+}
+.input-group {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container1 input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.container1:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container1 input:checked ~ .checkmark {
+  background-color: #a7ca00;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container1 .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 8px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 
+
+.outer-footer-wrapper {
+	padding-bottom: 40px;
+}
+.footer	{
+	width: 100%;
+	padding: 69px 0 69px 0;
+	background: #111111;
+}
+
+.credit	{
+	padding: 40px;
+	background: black;
+}
+
+.col .header1 {
+	font-size: 16px;
+	color: #9dbd00;
+	padding-left: 40px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+ul li {
+	list-style: none;
+	color: #1f1f1f;
+	padding-bottom: 10px;
+}
+
+ul li .one:visited {
+	color: #666;
+}
+
+ul li .one:link {
+	color: #666;
+	text-decoration: none;
+}
+
+ul li .one:hover {
+	color: #999;
+}
+
+ul li .two:visited {
+	color: white;
+}
+
+ul li .two:link {
+	color: white;
+	text-decoration: none;
+}
+
+ul li .two:hover {
+	font-weight: bold;
+}
