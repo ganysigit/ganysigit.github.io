@@ -148,17 +148,17 @@ li a.menu-spc:hover {
 .searchex .searchheader {
 	padding-left: 35px;
 	padding-top: 5px;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
-	color: #666
+	color: rgb(85, 84, 84);
 }
 .searchex .fa-search {
 	position: absolute;
-	top: 4px;
+	top: 7px;
 	left: 17px;
 	bottom: 5px;
 	font-size: 20px;
-	color: #999
+	color: rgb(85, 84, 84);
 }
 
 .search {
@@ -170,11 +170,12 @@ li a.menu-spc:hover {
 
 .search .form-control { 
 	position: relative; 
+	border-radius: 0;
 }
 
 .search .fa-search { 
 	position: absolute;
-	top: 52px;
+	top: 56px;
 	left: 196px;
 	font-size: 18px;
 	color: #999
@@ -208,11 +209,11 @@ li a.menu-spc:hover {
 }
 
 .content .post p.post-tema {
-	padding: 0px 50px 0 0;
-	font-size: 17px;
+	padding: 0px 55px 0 0;
+	margin-bottom: 0;
+	font-size: 20px;
 	font-weight: bold;
 	color: #666;
-	letter-spacing: 1px;
 	float: right;
 	position: relative;
 }
@@ -226,10 +227,40 @@ li a.menu-spc:hover {
 	padding-bottom: 15px;
 }
 .col-sm-3 div.sponsored {
-	margin-left: 25px;
+	margin-left: 80px;
 	border-radius: 0 0 8px 8px;
 	background: #b1cc33;
-	
+}
+
+.col-md-5 .fa {
+	color: #f4cb0c;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+span.fa span.fa {
+	color: #f4cb0c;
+	padding-top: 0;
+	padding-left: 3px;
+}
+
+span.fa span.fa span.fa {
+	color: #dddddd;
+}
+
+span.fa p.rating {
+	font-size: 25px;
+	color: #dddddd;
+	display: inline;
+	padding-left: 5px;
+}
+
+div.col-md-5 p.category {
+	color: #b1cc33;
+	margin-bottom: 0;
+	padding-left: 20px;
+	padding-top: 5px;
 }
 
 a.sponsored1:link {
@@ -237,6 +268,38 @@ a.sponsored1:link {
 	text-decoration: none;
 }
 
+div.col-sm-3 img {
+	padding-top: 40px;
+	float: left;
+}
+
+div.col-sm-3 p.delivery {
+	font-size: 14px;
+	float: right;
+	color: #999;
+	margin-bottom: 0;
+	padding-top: 45px;
+	padding-right: 11px;
+	font-weight: bold;
+}
+
+div.col-sm-3 p.minimum {
+	font-size: 13px;
+	float: right;
+	color: #999;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+div.col-sm-3 {
+	padding-right: 0;
+	overflow: hidden;
+	padding-left: 0;
+}
+
+div.col-md-5 {
+	padding-right: 0;
+}
 a.sponsored1:visited {
 	color: white;
 	text-decoration: none;
@@ -248,7 +311,7 @@ a.sponsored1:hover {
 }
 
 div.discount {
-	background: #b1cc33;
+	background: #f4b905;
 	border-radius: 0 0 40px 40px;
 	text-align: center;
 	padding: 14px 0px;
@@ -278,9 +341,11 @@ div.sponsored a.sponsored1 {
 
 div.sponsored p {
 	text-align: center;
+	margin-bottom: 0;
 }
 .list .listheader {
 	font-size: 16px;
+	padding-left: 8px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	padding-top: 3px;
@@ -289,6 +354,7 @@ div.sponsored p {
 
 .list .fa-list {
 	position: absolute;
+	padding-left: 10px;
 	top: 112px;
 	left: 20px;
 	font-size: 22px;
@@ -296,7 +362,7 @@ div.sponsored p {
 }
 
 .list2 .listcuisines {
-	padding-left: 20px;
+	padding-left: 34px;
 	padding-bottom: 13px;
 	padding-top: 20px;
 	font-size: 16px;
@@ -308,6 +374,7 @@ div.sponsored p {
 
 .list2 .fa-cutlery {
 	position: absolute;
+	padding-left: 10px;
 	top: 381px;
 	left: 20px;
 	font-size: 22px;
@@ -381,6 +448,10 @@ div.sponsored p {
 .outer-footer-wrapper {
 	padding-bottom: 40px;
 }
+
+div.line-footer {
+	padding: 20px 20px;
+}
 .footer	{
 	width: 100%;
 	padding: 69px 0 69px 0;
@@ -388,8 +459,28 @@ div.sponsored p {
 }
 
 .credit	{
-	padding: 40px;
-	background: black;
+	background: #141414;
+	padding: 20px;
+}
+
+div.credit div.container div.row div.col span.fa {
+	font-size: 40px;
+	padding-top: 10px;
+	color: #1c439d;
+}
+
+div.credit div.container div.row div.col-lg-6 {
+	padding-left: 33px;
+}
+
+div.credit div.container div.row div.col-lg-6 span.fa {
+	font-size: 60px;
+	color: #333333;
+}
+
+a.send-feedback:hover {
+	color: #b1cc33;
+	text-decoration: none;
 }
 
 .col .header1 {
